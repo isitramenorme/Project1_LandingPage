@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earpods X</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="antialiased bg-[#F8F4FB] text-gray-900">
+    <!-- NAVBAR -->
+    <header
+      class="w-full h-[80px] bg-[#FFFC92] border-b flex justify-between items-center px-6 md:px-16"
+    >
+      <div class="flex gap-8 items-center">
+        <h1 class="font-bold text-lg">Earpods X</h1>
+
+        <nav class="hidden lg:flex gap-6">
+          <a href="#">Product</a>
+          <a href="#">Resources</a>
+          <a href="#">Pricing</a>
+        </nav>
+      </div>
+
+      <div class="hidden lg:flex gap-4">
+        <button class="px-5 py-2 bg-gray-300 rounded-3xl">Login</button>
+        <button class="px-5 py-2 bg-green-400 text-white rounded-3xl">
+          Purchase
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="flex flex-col lg:flex-row justify-between gap-10 p-6 md:p-12"
+    >
+      <div class="lg:w-1/2 space-y-6">
+        <h1 class="text-4xl md:text-5xl font-serif leading-tight">
+          Plug in. Tune out the world. Feel the sound.
+        </h1>
+
+        <div class="space-y-2 text-lg">
+          <p>Fast pairing. Seamless connection in seconds.</p>
+          <p>Crystal clear audio. Deep bass, sharp clarity.</p>
+          <p>Long-lasting battery for all-day listening.</p>
+          <p>Stable connectivity with zero interruptions.</p>
+        </div>
+
+        <button
+          class="px-8 py-3 bg-[#311F35] text-yellow-200 rounded-full font-semibold"
+        >
+          Get yours today
+        </button>
+      </div>
+
+      <div class="lg:w-1/2 flex justify-center">
+        <img
+          src="images/earpods.png"
+          alt="Earpods"
+          class="w-full max-w-xl h-[250px] md:h-[350px] object-contain rounded-md"
+        />
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section
+      class="flex flex-wrap justify-center gap-10 text-center mt-10 px-6"
+    >
+      <div>Up to 24 hrs battery life</div>
+      <div>Works across all devices</div>
+      <div>Noise cancellation support</div>
+      <div>Comfortable ergonomic design</div>
+      <div>No lag, no distortion</div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="text-center mt-16 px-6">
+      <h2 class="text-2xl font-semibold mb-6">Compatible With</h2>
+
+      <div class="flex flex-wrap justify-center gap-6">
+        <div class="bg-white shadow px-6 py-3 rounded">Spotify</div>
+        <div class="bg-white shadow px-6 py-3 rounded">Apple Music</div>
+        <div class="bg-white shadow px-6 py-3 rounded">YouTube Music</div>
+        <div class="bg-white shadow px-6 py-3 rounded">SoundCloud</div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="text-center mt-20 px-6">
+      <h2 class="text-3xl font-semibold mb-6">FAQs</h2>
+
+      <div class="max-w-2xl mx-auto text-left space-y-4">
+        <details class="border rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold">
+            How long does the battery last?
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Battery life depends on usage, but typically they last several hours
+            on a single charge, with extra backup from the charging case.
+          </p>
+        </details>
+
+        <details class="border rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold">
+            Do they support noise cancellation?
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Yes, the models include noise reduction features to help reduce
+            background noise during calls or listening.
+          </p>
+        </details>
+
+        <details class="border rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold">
+            How long does it take to charge?
+          </summary>
+          <p class="mt-2 text-gray-600">
+            Charging usually takes about 1–2 hours depending on the model.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center mt-20 px-6">
+      <h2 class="text-3xl font-semibold mb-4">Comfort and performance first</h2>
+      <p>Ergonomic design • Premium audio drivers • Seamless connectivity</p>
+
+      <button class="mt-6 px-8 py-3 bg-[#311F35] text-yellow-200 rounded-full">
+        Buy Now
+      </button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#311F35] text-gray-300 mt-20 p-10 text-center">
+      <p>© 2025 Earpods X</p>
+      <p class="text-sm mt-2">Built with &lt;3</p>
+    </footer>
+  </body>
+</html>

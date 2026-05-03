@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+/* optional smooth button effect */
+button {
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
